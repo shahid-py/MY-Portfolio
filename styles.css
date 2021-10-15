@@ -76,6 +76,10 @@ hr {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
+
+.link-active {
+    font-weight: bold;
+}
  
 /** list **/
 
