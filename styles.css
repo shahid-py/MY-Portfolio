@@ -9,6 +9,7 @@
     --primary-color:#5067DB;
     --dark-grey-color:#6B7280;
     --off-white-color:#F3F4F6;
+    --link-color: #fff;
 }
 
 body {
@@ -80,6 +81,27 @@ hr {
 .link-active {
     font-weight: bold;
 }
+
+.project-link {
+    color: var(--link-color);
+    font-weight: bolder;
+    padding: 0;
+  }
+  
+  .blog-link {
+    color: var(--link-color);
+    font-weight: bolder;
+    padding: 0;
+  }
+  
+  .project-link-button {
+    font-size: 1rem;
+    transform: scale(0.98);
+  }
+  
+  .project-section {
+    margin-bottom: 2rem;;
+  }
  
 /** list **/
 
