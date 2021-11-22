@@ -65,6 +65,8 @@ hr {
 .link {
     text-decoration: none;
     padding:0.5rem 1rem;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 .link-primary{
@@ -80,7 +82,7 @@ hr {
 }
 
 .link-active {
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .project-link {
@@ -119,7 +121,7 @@ hr {
 
 .navigation{
     background-color: var(--primary-color);
-    padding: 0.9em 1rem;
+    padding: 0.9rem 1rem;
     border-top-left-radius: 1rem;
     color: white;
 }
@@ -151,7 +153,7 @@ hr {
 
 .hero .hero-heading{
 color: var(--dark-grey-color);
-margin-top: 1rem;
+margin-top: 2rem;
 text-align: center;
 }
 .hero .hero-heading .heading-inverted{
@@ -190,3 +192,8 @@ color: white;
 .footer .link{
     color: white;
 }
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+    /* .navigation {
+      padding: 5px;
+    } */
