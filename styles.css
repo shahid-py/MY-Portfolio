@@ -31,8 +31,7 @@ hr {
 /** container **/
 
 .container-fluid{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding:0rem 1rem;
 }
 .container-center{
     text-align: center;
@@ -120,7 +119,7 @@ hr {
 
 .navigation{
     background-color: var(--primary-color);
-    padding: 1rem;
+    padding: 0.9em 1rem;
     border-top-left-radius: 1rem;
     color: white;
 }
@@ -152,7 +151,7 @@ hr {
 
 .hero .hero-heading{
 color: var(--dark-grey-color);
-padding-top: 1rem;
+margin-top: 1rem;
 text-align: center;
 }
 .hero .hero-heading .heading-inverted{
