@@ -32,7 +32,7 @@ hr {
 /** container **/
 
 .container-fluid{
-    margin:0rem 1rem;
+    padding:0rem 1rem;
 }
 .container-center{
     text-align: center;
@@ -65,7 +65,7 @@ hr {
 
 .link {
     text-decoration: none;
-    padding:0.5rem 1rem;
+    padding:0.8rem 1rem;
     box-sizing: border-box;
     text-align: center;
 }
@@ -110,12 +110,12 @@ hr {
 /** list **/
 
 .list-non-bullet{
-    list-style: none;
+    list-style-type: none;
 }
 
 .list-inline{
     display: inline;
-    padding: 0rem 0.5rem;
+    padding: 0 0.5rem;
 }
 
 /** navigation **/
@@ -174,7 +174,7 @@ text-align: center;
 }
  .ow{
     background-color: var(--off-white-color);
-    border-radius: 5rem;
+    
     color: var(white);
     
 
@@ -184,13 +184,24 @@ text-align: center;
 
 .footer{
 background-color:var(--primary-color);
-border-bottom-right-radius: 2rem;
-padding: 1rem 1rem;
+border-bottom-right-radius: 1rem;
+border-top-left-radius: 1rem;
+padding: 2rem 1rem;
 text-align: center;
 color: white;
 }
+.footer .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: row; */
+    /* align-items: center;
+    justify-content: center; */
+    margin: 1rem 0;
+  }
 
 .footer .link{
+    padding: opx;
     color: white;
 }
 
