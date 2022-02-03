@@ -14,9 +14,10 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0px;
-   
-    font-size: 1.2rem;
+    margin: 0px auto;
+   max-width: 85%;
+   width: 100%;
+    font-size: 1rem;
     
 }
 
@@ -31,12 +32,11 @@ hr {
 
 /** container **/
 
-.container-fluid{
-    padding:0rem 1rem;
-}
+
 .container-center{
-    text-align: center;
-    max-width: 700px;
+    
+    max-width: 900px;
+    width: 95%;
     margin: auto;
 }
 
@@ -71,12 +71,14 @@ hr {
 }
 
 .link-primary{
+    max-width: 140px;
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color:white;
 }
 
 .link-secondary{
+    max-height: 140px;
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
@@ -111,18 +113,19 @@ hr {
 
 .list-non-bullet{
     list-style-type: none;
+    padding-inline-start: 0px;
 }
 
-.list-inline{
+.list-item-inline{
     display: inline;
-    padding: 0 0.5rem;
+    padding: 0rem 0.5rem;
 }
 
 /** navigation **/
 
 .navigation{
     background-color: var(--primary-color);
-    padding: 0.9rem 1rem;
+    padding: 1rem;
     border-top-left-radius: 1rem;
     color: white;
 }
@@ -133,6 +136,7 @@ hr {
 
 .navigation  .nav-pills{
      text-align:right;
+     margin: 0.6rem 1rem;
 }
 
 .navigation .link{
@@ -147,6 +151,7 @@ hr {
 
 .hero .hero-img{
     max-width: 80%;
+    width: 550px;
     display: block;
     margin: auto;
     width: 550px;
@@ -205,5 +210,23 @@ color: white;
     color: white;
 }
 
-@media screen and (max-width: 480px) and (orientation: portrait) {
-}
+@media (max-width: 900px) {
+    body {
+      max-width: 95%;
+      width: 100%;
+    }
+  
+    .list-item-inline {
+      display: inline;
+      padding: 0rem;
+      width: auto
+    }
+  
+    .container-center {
+      width: auto;
+    }
+  
+    .link-primary {
+      display: block;
+    }
+  }
